@@ -42,5 +42,5 @@ Supported OS:
   --No Specified-- 
   (prefered OS : Windows 10)
 Supported Web:
-  Windows, MicrosOft Edges
+  Google Chrome, MicrosOft Edges
   (prefered Web : Google Chrome)
