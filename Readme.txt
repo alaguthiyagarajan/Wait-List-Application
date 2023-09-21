@@ -1,5 +1,7 @@
 Process on Execute and Deployment :
-  #How to Execute My Project
+  
+
+ #How to Execute My Project
     First Install Recommended version of Node Js from Web 
       please check following command to fully install node js or not 
       open cmd and check node -v and check npm -v
@@ -19,7 +21,7 @@ Process on Execute and Deployment :
     * First Download Visual studio on web browser
     * Go to open file then attach the project file then 
     * Add the given vercel.json file in your backend directory first: Adding this file will enable Vercel configuration.
-    * Deploy server-side i.e : backend of your Waitlist Application: Go to web Vercel dashboard and click on the "Add new" button and          select the "project" category.
+    * Deploy server-side i.e : backend of your Waitlist Application: Go to web Vercel dashboard and click on the "Add new" button and select the "project" category.
     * Import Your Git repository after linking your Github account with Vercel
     * Configure the Node.js backend of your MERN app: 
      -> Write your project name. For eg.Waitlist application
@@ -31,8 +33,8 @@ NOTE : Don't forget to save the deployment link of your server and replace it in
        provided
 
 Most Important : In Our Waitlist Application
-     you will be receiving an email, which contains an url. The url contains an localhost. 
-     you have to replace the localhost by the IP address of the device which you used to deploy.
+    		 you will be receiving an email, which contains an url. The url contains an localhost. 
+    		 you have to replace the localhost by the IP address of the device which you used to deploy.
   
 
 
@@ -41,4 +43,4 @@ Supported OS:
   (prefered OS : Windows 10)
 Supported Web:
   Windows, MicrosOft Edges
-  (prefered Web : GOOGLE Chrome)
+  (prefered Web : Google Chrome)

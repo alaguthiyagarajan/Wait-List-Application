@@ -1,0 +1,19 @@
+{
+"_id":{"$oid":"650be8e0867d8f075bf74e7b"},
+"name":"Alaguthiyagarajan A","mail":"alaguthiyagarajanaicse@gmail.com",
+"rank":{"$numberInt":"98"}
+}
+
+{
+"_id":{"$oid":"650be937867d8f075bf74e7c"},
+"name":"myfriend",
+"mail":"bharathvaasan123@gmail.com",
+"rank":{"$numberInt":"100"}
+}
+
+{
+"_id":{"$oid":"650bea72867d8f075bf74e7d"},
+"name":"bharath",
+"mail":"samuvelbharathraj@gmail.com",
+"rank":{"$numberInt":"101"}
+}
