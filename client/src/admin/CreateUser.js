@@ -34,7 +34,7 @@ function CreateUser() {
         })
         .catch(err=>console.log(err))
     }
-    //Create Functions
+    //Create Functions of New Candidate Registartion
     let change=
         <div className = "d-flex justify-content-center align-items-center vh-100">
             <form onSubmit={ formSubmited}  className = "w-50 px-3 py-4 rounded border border-dark border-1" style={{boxShadow:"0px 0px 10px 5px black"}} >
