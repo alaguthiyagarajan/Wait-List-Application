@@ -1,5 +1,5 @@
 function Completed( props ){
-    
+    // In this codes runs When user complete details With Referal shows the output Rank(position) and Register succcessfully 
     return (
         <div className = "vh-100 d-flex justify-content-center align-items-center" style = {{ flexDirection:"column"}} >
             <div className = "border border-2 border-dark rounded w-50 text-center py-4 bg-light" style = {{boxShadow:"0px 0px 17px 5px white"}}>
