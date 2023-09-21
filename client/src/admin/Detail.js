@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 function Detail(props){
-    //Updation Process(Edit or Delete)
+    //Updation Process(Delete)
     
     let [list, setList] = useState([]);
     let [temp, setTemp] = useState(0);
