@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 function UpdateUser(props){
-
+    //Update process(mail and name)
     let [name, setName] = useState("");
     let [mail, setMail] = useState("");
 
