@@ -4,10 +4,12 @@ Process on Execute and Deployment :
       please check following command to fully install node js or not 
       open cmd and check node -v and check npm -v
   #Run React
-    open terminal set path your download file and select client then start the server (command is npm start)
+    open terminal set path your download file (client) and install npm (npm install)
+     start the server (command is npm start)
     I hope projects runs successfully on your browser at port number 3000
   #Run Server
-   open terminal set path your download file and select server then start the server (command is npm start)
+    open another terminal set path your download file (server) and install npm (npm install)
+     start the server (command is npm start)
 
   I hope Run Project Successfully 
   Username : admin
