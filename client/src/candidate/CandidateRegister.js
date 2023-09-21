@@ -6,18 +6,18 @@ import Completed from './Completed';
 
 
 function CandidateRegister(){
+//Canditate Register
+    let id = useParams();
+    let navigation = useNavigate();
 
-    let id=useParams();
-    let navigation=useNavigate();
+    let [page,setPage] = useState(0);
+    let [refer,setRefer] = useState("");
 
-    let [page,setPage]=useState(0);
-    let [refer,setRefer]=useState("");
-
-    let changeRefer=(value)=>{
+    let changeRefer = (value) => {
         setRefer(value)
     }
 
-    useEffect(()=>{
+    useEffect(() => {
         axios.post("http://localhost:3001/findUser", {id:id.id})
         .then((res) => {
             changeRefer(res . data);
