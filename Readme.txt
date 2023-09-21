@@ -13,9 +13,9 @@ Process on Execute and Deployment :
     open another terminal set path your download file (server) and install npm (npm install)
      start the server (command is npm start)
 
-  I hope Run Project Successfully 
-  Username : admin
-  password :admin
+  I hope Run Project Successfully And Here is,
+    *Username : admin
+    *password :admin
    
 #How To Deploy my project
     * First Download Visual studio on web browser
