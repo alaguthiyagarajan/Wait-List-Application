@@ -1,5 +1,5 @@
 let nodemailer = require('nodemailer');
-// In this process is Set Mail Id and set Temporarory Password
+// In this process is Set Mail Id and set temporary Password
 let transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
