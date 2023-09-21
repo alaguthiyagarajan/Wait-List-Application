@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 function Register( props ){
-
+    // When users get mail id contains of Unique Url and click the url then web shows Referal name and Referal mailId
+    //And Type Canditate deatils which candiatate want to connect to purchase the coupon code
     
     let [name, setName] = useState("");
     let [mail, setMail] = useState("");
