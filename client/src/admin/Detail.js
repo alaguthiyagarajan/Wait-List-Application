@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 function Detail(props){
-
+    //Updation Process(Edit or Delete)
+    
     let [list, setList] = useState([]);
     let [temp, setTemp] = useState(0);
     let style = {backgroundColor : "#89b9ff", height : "4rem", margin : "5px", boxShadow : "3px 3px white"}
