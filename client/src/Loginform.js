@@ -6,7 +6,7 @@ function LoginForm(){
     let [name,setName] = useState("");
     let [pass,setPass] = useState("");
     let navigate = useNavigate();
-
+//Login Form Username:admin and Password:admin
     let login = () => {
         if(name.trim() == "admin" && pass.trim() == "admin"){
             alert("login success");
