@@ -9,7 +9,7 @@ let app = express();
 
 app.use(cor());
 app.use(express.json());
-
+//Check users id invalid or not
 app.post("/findUser", async (req, res) => {
     console.log("\nfind user operation start")
     console.log(req.body.id);
@@ -49,6 +49,7 @@ app.post("/applyrefer", async (req, res) => {
         let collection = database.collection("user");
         await collection.findOne({_id:new ObjectId(req.body.id)}).then((data) => {
             if(data != null){
+                 //Generate a coupon code from our Mail to Canditate Mail 
                 if(data.rank <= 1){
                     console.log( "Insertion completed" )
                     let subject = "coupon code ";
@@ -61,7 +62,7 @@ app.post("/applyrefer", async (req, res) => {
     console.log("referece completed");
     res.send("ok");
 })
-
+//In Update Database
 app.post("/updateuser",async (req, res)=>{
     console.log("\nupdate start")
     let database = await db.getDatabase();
@@ -70,7 +71,7 @@ app.post("/updateuser",async (req, res)=>{
     console.log("update completed");
     res.send("ok");
 })
-
+///In Delete Database
 app.post("/delete", async (req, res) => {
     console.log("\ndelete start");
 
@@ -87,13 +88,14 @@ app.post("/createuser",async (req, res)=>{
 
     let database = await db.getDatabase();
     let collection = database.collection("user");
-
+    //Second User connect with Admin Create
     let col = await collection.find().toArray();
     let rank = col.length+99;
 
     let myobj = {name:req.body.name,mail:req.body.mail,rank}
     await collection.insertOne(myobj).then((res1) => {
         console.log("Insertion completed")
+        //Invite Link Send to Canditate Mail Id
         let subject = "Invite Link";
         let text = `http://localhost:3000/candidate/${res1.insertedId}`;
         mail.sendmail(transporter,req.body.mail,subject,text);
